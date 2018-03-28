@@ -1,0 +1,11 @@
+<li>
+	{{#if consumed}}<img src="http://www.classicgaming.cc/classics/burgertime/art/BurgerTime-Logo.gif" alt="burgerTime">
+	{{else}}<img src="https://cdn.drawception.com/images/panels/2017/5-26/1YFEPY1wnf-4.png" alt="burgerTime">{{/if}}
+	{{name}}
+
+	<button class="change-consumed" data-id="{{id}}" data-newconsumed="{{consumed}}">
+		{{#if consumed}} Eat Me! {{else}}Make me Again!{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">Gross Toss it!</button>
+</li>

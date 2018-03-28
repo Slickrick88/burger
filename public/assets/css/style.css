@@ -1,0 +1,47 @@
+li {
+  padding: 15px;
+  margin: 5px;
+  background: yellow;
+  width: 80%;
+  list-style-type: none;
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.col-md-5{
+  margin: 5px;
+  border: 5px;
+  padding: 10px;
+  color: Black;
+}
+
+#main-container{
+  margin: 5px;
+  border: 5px;
+  padding: 10px;
+
+}
+
+.row{
+  margin: 10px;
+  border: 10px;
+  padding: 15px;
+}
+
+img{
+  max-height: 40px;
+  margin-right: 15px;
+}
